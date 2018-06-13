@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate G:\MAX10_project\JTAG_test2\myjtag.qsys --block-symbol-file --output-directory=G:\MAX10_project\JTAG_test2\myjtag --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading JTAG_test2/myjtag.qsys
+Progress: Reading input file
+Progress: Adding virtual_jtag_0 [altera_virtual_jtag 17.1]
+Progress: Parameterizing module virtual_jtag_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate G:\MAX10_project\JTAG_test2\myjtag.qsys --synthesis=VERILOG --output-directory=G:\MAX10_project\JTAG_test2\myjtag\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading JTAG_test2/myjtag.qsys
+Progress: Reading input file
+Progress: Adding virtual_jtag_0 [altera_virtual_jtag 17.1]
+Progress: Parameterizing module virtual_jtag_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: myjtag: Generating myjtag "myjtag" for QUARTUS_SYNTH
+Info: virtual_jtag_0: "myjtag" instantiated altera_virtual_jtag "virtual_jtag_0"
+Info: myjtag: Done "myjtag" with 2 modules, 1 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

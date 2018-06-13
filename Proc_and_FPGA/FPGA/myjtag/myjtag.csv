@@ -1,0 +1,18 @@
+# system info myjtag on 2018.03.22.14:06:34
+system_info:
+name,value
+DEVICE,10M50DAF484C7G
+DEVICE_FAMILY,MAX 10
+GENERATION_ID,1521713193
+#
+#
+# Files generated for myjtag on 2018.03.22.14:06:34
+files:
+filepath,kind,attributes,module,is_top
+simulation/myjtag.v,VERILOG,,myjtag,true
+simulation/submodules/sld_virtual_jtag.v,VERILOG,,sld_virtual_jtag,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+myjtag.virtual_jtag_0,sld_virtual_jtag
